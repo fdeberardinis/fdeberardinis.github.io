@@ -1,1 +1,48 @@
-{"id":"did:web:did.fdbtest.com","@context":["https://www.w3.org/ns/did/v1",{"@base":"did:web:did.fdbtest.com"}],"service":[{"id":"#linkeddomains","type":"LinkedDomains","serviceEndpoint":{"origins":["https://did.fdbtest.com/"]}},{"id":"#hub","type":"IdentityHub","serviceEndpoint":{"instances":["https://hub.did.msidentity.com/v1.0/be83b4b6-9417-4846-be4a-ce5e8ba2eaca"]}}],"verificationMethod":[{"id":"#843aca17406845afa187b85472d62e88vcSigningKey-ee935","controller":"did:web:did.fdbtest.com","type":"EcdsaSecp256k1VerificationKey2019","publicKeyJwk":{"crv":"secp256k1","kty":"EC","x":"LifDultM9gY3PJD3T8nUGQCYmvK7ATPSyhCLkMxXxA8","y":"yMScn1G-ZktRyiqmHZBPY3BINn6qkyk0WpGe6TQ4rew"}}],"authentication":["#843aca17406845afa187b85472d62e88vcSigningKey-ee935"],"assertionMethod":["#843aca17406845afa187b85472d62e88vcSigningKey-ee935"]}
+{
+  "id": "did:web:did.fdbtest.com",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:did.fdbtest.com"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://did.fdbtest.com/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/be83b4b6-9417-4846-be4a-ce5e8ba2eaca"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#843aca17406845afa187b85472d62e88vcSigningKey-ee935",
+      "controller": "did:web:did.fdbtest.com",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "publicKeyJwk": {
+        "crv": "secp256k1",
+        "kty": "EC",
+        "x": "LifDultM9gY3PJD3T8nUGQCYmvK7ATPSyhCLkMxXxA8",
+        "y": "yMScn1G-ZktRyiqmHZBPY3BINn6qkyk0WpGe6TQ4rew"
+      }
+    }
+  ],
+  "authentication": [
+    "#843aca17406845afa187b85472d62e88vcSigningKey-ee935"
+  ],
+  "assertionMethod": [
+    "#843aca17406845afa187b85472d62e88vcSigningKey-ee935"
+  ]
+}
